@@ -1,0 +1,14 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;				;
+;	   UNROM 512		;
+;				;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+				;
+.INCSRC	metadata\header.asm	; INES header
+.INCSRC	metadata\variables.asm	; Variables
+.INCSRC	metadata\constants.asm	; Constants
+.INCSRC metadata\macros.asm	; Macros
+				;
+.INCSRC	prg\prg.asm		; Program data
+				;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
